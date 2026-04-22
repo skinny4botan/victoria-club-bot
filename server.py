@@ -38,7 +38,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['broadcast'])
 def broadcast(message):
-    ADMIN_ID = 123456789  # ЗАМЕНИ НА СВОЙ ID
+    ADMIN_ID = 1472818360
     
     if message.from_user.id != ADMIN_ID:
         bot.reply_to(message, "❌ У тебя нет доступа к этой команде.")

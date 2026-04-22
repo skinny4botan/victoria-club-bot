@@ -74,7 +74,7 @@ def broadcast(message):
 
 @bot.message_handler(commands=['stats'])
 def stats(message):
-    ADMIN_ID = 123456789  # ЗАМЕНИ НА СВОЙ ID
+    ADMIN_ID = 1472818360
     
     if message.from_user.id != ADMIN_ID:
         return

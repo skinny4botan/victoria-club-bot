@@ -10,7 +10,7 @@ def send_welcome(message):
     first_name = message.from_user.first_name or "Guest"
     text = f"Welcome, {first_name}! This is the place where you'll find all the trending games — and more🔥\n\n✅Subscribe to the channel and unlock full access to games👇"
     keyboard = InlineKeyboardMarkup()
-    button = InlineKeyboardButton(text="SUBSCRIBE", url="https://clicks.su/m2bGNq")
+    button = InlineKeyboardButton(text="SUBSCRIBE", url="https://t.me/+t0EkIlOuMnkwOGNi")
     keyboard.add(button)
     bot.send_message(message.chat.id, text, reply_markup=keyboard)
 
